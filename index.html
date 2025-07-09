@@ -1,11 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rahman's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" id="home" href="#">Wasifur Rahman </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" id="about" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" id="project" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" id="contact" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Add your sections here -->
+    <section class="container my-5" id="Home">
+        <h1>Hello, I’m Wasifur Rahman 👋</h1>
+        <p>Frontend Developer</p>
+        <p> I’m a Computer Engineering graduate from AIKTC, Mumbai (Batch of 2024), with hands-on experience in web
+            development — especially in the healthcare domain. During my time at EyeDesk, I worked closely with a
+            cross-functional team to build patient data input features and successfully migrated a live project from a
+            college startup to production.
+        </p>
+        <p> I’ve also completed an 8-month full-stack internship at SoftDigits, where I developed responsive web
+            applications using CodeIgniter 4, HTML, and SCSS. While I’m skilled across the stack, my true strength lies
+            in frontend technologies, where I focus on building clean, user-friendly interfaces.
+        </p>
+        <p> With additional certifications in cybersecurity and AWS Kendra, I bring a unique blend of design sense and
+            security awareness. I’m now looking for opportunities where I can apply my skills, grow with a dynamic team,
+            and contribute to building impactful digital solutions.
+        </p>
+
+    </section>
+
+
+    <div class="container" id="contact_form">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <form class="contact-form">
+                    <h2 class="text-center mb-4">Contact Us</h2>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="project_card">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="Photos/Quote_Generator_resize.png" height="286px" width="180px"
+                        alt="Quote_generator img">
+                    <div class="card-body">
+                        <h5 class="card-title">Quote Generator</h5>
+                        <p class="card-text">Simple random quote generating tool </p>
+                        <a href="https://quote-generator-x07m.onrender.com/" class="btn btn-primary">Click Here</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="Photos/Campus_connect.jpeg" height="286px" width="180px"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Campus Connect</h5>
+                        <p class="card-text">One-stop solution for campus life </p>
+                        <a href="https://campus-connect-puce.vercel.app/" class="btn btn-primary">Click Here</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="Photos/Currency_Converter_resize.jpeg" height="286px" width="180px"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Currency Converter</h5>
+                        <p class="card-text">Simple global currency rate tool</p>
+                        <a href="https://currency-converter-git.vercel.app/" class="btn btn-primary">CLick Here</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="container my-5" id="About">
+        <h1>Brief Introduction:</h1>
+        <p>I'm Siddique Wasifur Rahman, a passionate and motivated Frontend Developer with strong hands-on experience in
+            building responsive, user-friendly web applications. I have collaborated with cross-functional teams on
+            real-world healthcare and education-based projects, and I'm deeply committed to creating impactful digital
+            experiences.
+        </p>
+
+        <h1>Education:</h1>
+        <p>🎓 Bachelor of Engineering in Computer Science
+            Anjuman-I-Islam’s Kalsekar Technical Campus, University of Mumbai <br>
+            Graduated: June 2024 | CGPI: 7.48 <br>
+
+            📘 HSC (Class XII) – M.H. Saboo Siddik Polytechnic, Mumbai – 61% <br>
+            📘 SSC (Class X) – M.H. Saboo Siddik Technical High School, Mumbai – 73%
+        </p>
+
+        <h1>Technical Skills:</h1>
+        <p>
+
+            🔹Frontend: HTML5, CSS3, JavaScript, React, Responsive Design <br>
+
+            🔹Backend/General: Python, C++, MongoDB <br>
+
+            🔹Dev Tools: Git, Docker, Linux <br>
+
+            🔹Concepts: OOP, Cyber Security, Computer Networking
+        </p>
+
+        <h1>Professional Experience:</h1>
+        <p>
+            🔹Front-End Developer – EyeDesk (Jul 2022 – May 2023) <br>
+            Built patient data input features using HTML, CSS & JavaScript <br>
+
+            Led a 9-member team on Eye Hospital Management software <br>
+
+            Improved data entry efficiency by 20% and user satisfaction by 15% <br>
+        </p>
+        <p>
+            🔹Virtual Software Engineering Experience – J.P. Morgan (Forage) (Mar 2024) <br>
+            Configured development environment and fixed repo issues <br>
+
+            Used Perspective library to generate live data feed graphs for traders <br>
+
+
+        </p>
+
+        <h1>Achievements / Certifications:</h1>
+        <p>
+            🔹💡 Secured ₹11 Lakh funding for EyeDesk project <br>
+
+            🔹🧠 Solved 50+ DSA questions on Coding Ninjas platform <br>
+
+            🔹🛡️ Google Cybersecurity Professional Certificate <br>
+
+            🔹🌐 Cisco Introduction to Cybersecurity <br>
+
+            🔹📡 Cisco Networking Basics
+        </p>
+
+        <h1>Personal Qualities:</h1>
+        <p>
+            🔹Strong team player with experience in collaborative environments <br>
+
+            🔹Quick learner with a growth mindset <br>
+
+            🔹Problem-solving and debugging enthusiast <br>
+
+            🔹Passionate about clean UI design and secure coding practices <br>
+        </p>
+
+        <h1>Interests / Hobbies:</h1>
+        <p>
+            🔹Exploring cybersecurity tools and trends <br>
+
+            🔹Watching tech videos and tutorials <br>
+
+            🔹Passionate about sharing knowledge and learning in public <br>
+
+        </p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
